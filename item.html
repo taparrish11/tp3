@@ -42,20 +42,24 @@
     });
   </script>
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #346B60;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #000;
       color: #fff;
     }
 
     .navbar {
       display: flex;
       justify-content: space-between;
-      padding: 2rem 5%;
+      padding: 2rem 5vw;
       position: fixed;
-      width: 90%;
+      width: 100%;
       background-color: rgba(0, 0, 0, 0.6);
       backdrop-filter: blur(10px);
       z-index: 100;
@@ -87,12 +91,12 @@
     }
 
     .hero {
-      height: 80vh;
+      height: 100vh;
       min-height: 700px;
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      padding: 6rem 3rem;
+      padding: 6rem 10vw;
       background-image: url('background_header.jpg');
       background-size: cover;
       background-position: center;
@@ -132,7 +136,7 @@
 
     section {
       width: 100%;
-      padding: 6rem 5%;
+      padding: 6rem 10vw;
       border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -200,7 +204,7 @@
 
   <section id="contact" class="contact">
     <h2>Contact</h2>
-    <p>Reach out at <a href="mailto:taparrish11@gmail.com">taparrish11@gmail.com</a></p>
+    <p><a href="mailto:taparrish11@gmail.com">taparrish11@gmail.com</a></p>
   </section>
 </body>
 </html>
